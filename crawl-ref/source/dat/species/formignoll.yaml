@@ -1,6 +1,6 @@
 enum: SP_FORMIGNOLL
-monster: MONS_FORMIGNOLL
-name: "FormiGnoll"
+monster: MONS_GNOLL
+name: "Formignoll"
 short_name: "Fg"
 difficulty: Simple
 difficulty_priority: 10
