@@ -1,7 +1,7 @@
-enum: SP_GNOLL
-monster: MONS_GNOLL
+enum: SP_FORMIGNOLL
+monster: MONS_FORMIGNOLL
 name: "FormiGnoll"
-short_name: "FG"
+short_name: "Fg"
 difficulty: Simple
 difficulty_priority: 10
 aptitudes:
@@ -37,19 +37,18 @@ aptitudes:
   poison_magic: 8
   invocations: 9
   evocations: 8
-str: 15
-int: 15
-dex: 15
+str: 20
+int: 20
+dex: 20
 levelup_stat_frequency: 1
 levelup_stats:
-  - str
   - int
 mutations:
   1:
     MUT_STRONG_NOSE: 1
-    MUT_FANGS: 1
     MUT_DISTRIBUTED_TRAINING: 1
     MUT_QUADRUMANOUS: 1
+    MUT_TENTACLE_ARMS: 1
 recommended_jobs:
   - JOB_HEDGE_WIZARD
   - JOB_WANDERER
