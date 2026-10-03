@@ -429,7 +429,11 @@ namespace species
 
     int arm_count(species_type species)
     {
-        return species == SP_OCTOPODE ? 8 : 2;
+        //return species == SP_OCTOPODE ? 8 : 2;
+				if (species == SP_OCTOPODE || species == SP_FORMIGNOLL)
+					return 8;
+				else
+					return 2;
     }
 
     equipment_type sacrificial_arm(species_type species)
