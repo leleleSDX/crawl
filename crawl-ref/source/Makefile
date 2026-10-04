@@ -189,6 +189,11 @@ PYTHON = python
 ifneq (, $(shell which python3 2>&1))
 	PYTHON = python3
 endif
+# auto ccache if its installed
+ifneq ($(shell which ccache),)
+	CC = ccache $(GCC)
+	CXX = ccache $(GXX)
+endif
 
 export AR
 export RANLIB
