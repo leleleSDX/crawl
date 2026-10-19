@@ -9,34 +9,35 @@ aptitudes:
   hp: 3
   mp_mod: 0
   mr: 4
-  fighting: 3
+  fighting: 9
   short_blades: -1
   long_blades: -1
-  maces_and_flails: 3
+  maces_and_flails: 9
   ranged weapons: -3
-  armour: -2
-  dodging: -1
+  throwing: 8
+  armour: 8
+  dodging: 8
   stealth: -2
   unarmed_combat: -1
-  spellcasting: 1
+  spellcasting: 9
   conjurations: -1
   hexes: -1
   summoning: -1
   necromancy: -1
-  translocations: -1
+  translocations: 8
   transmutations: -1
   fire_magic: -1
   ice_magic: -1
   air_magic: -1
   earth_magic: -1
   poison_magic: -1
-  invocations: 1
+  invocations: 9
   evocations: -2
 size: large
-str: 11
+str: 15
 int: 9
 dex: 4
-levelup_stat_frequency: 3
+levelup_stat_frequency: 1
 levelup_stats:
   - str
 mutations:
